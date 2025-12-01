@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+header {
+    width: 100%;
+    background-color: #a3bbd3;  
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: normal;
+    color: #223b73;
+    margin: 0;
+    font-family: "Libre Bodoni";
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+nav a:hover{
+    color: #a91b69;
+}
+
+.grecia{
+    width: 100%;
+    height: 450px;
+    background-image: url("https://i.pinimg.com/1200x/ee/83/77/ee8377c667253bf7bd4dc126ea29ea8c.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+
+.texto{
+    width: 40%;
+    background-color: rgba(73, 135, 211, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    position: relative;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.bandeira{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    width: 70px;
+    height: auto;
+}

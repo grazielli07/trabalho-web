@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    }
+
+    header {
+        width: 100%;
+        background-color: #a3bbd3;  
+        padding: 10px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 42px;
+        font-weight: normal;
+        color: #223b73;
+        margin: 0;
+        font-family: "Libre Bodoni";
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        transition: 0.2s;
+    }
+
+    nav a:hover{
+        color: #a91b69;
+    }
+
+    body{
+        background-color: #f4eaea;
+    }
+   
+    .tudo{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+   
+    .turismo{
+        width: 100%;
+        margin-bottom: 15px;
+        padding-top: 2.5rem;
+        border-radius: 10px;
+        background-color: #f4eaea;
+    }
+   
+    .texto{
+        text-align: justify;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+   
+    .imagens{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+   
+    .imagem{
+        width: 30%;
+        text-align: center;
+    }
+   
+    .imagem img{
+        width: 100%;
+        border-radius: 10px;
+    }
+   
+    .imagem p{
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    strong{
+        color: #a91b69;
+    }
+
+    .comeco img{
+       width: 70%;
+       display: block;
+       margin: 0 auto;
+       border-radius: 10px;
+       text-align: center;
+       margin: 20px auto ;
+       margin-top: 1px;
+    }
+
+
