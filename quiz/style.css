@@ -62,12 +62,17 @@
         display: flex;
         align-items: center;
         gap: 15px;
+        background-color: #fff;
+        border-radius: 10px;
     }
    
     .foto{
         width: 80px;
         height: 80px;
         border-radius: 50%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
     }
    
     .pergunta{

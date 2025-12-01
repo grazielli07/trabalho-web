@@ -54,7 +54,6 @@
     .turismo{
         width: 100%;
         margin-bottom: 15px;
-        padding-top: 2.5rem;
         border-radius: 10px;
         background-color: #f4eaea;
     }
@@ -94,11 +93,12 @@
     .comeco img{
        width: 70%;
        display: block;
-       margin: 0 auto;
+       margin: 30px auto;
        border-radius: 10px;
-       text-align: center;
-       margin: 20px auto ;
-       margin-top: 1px;
     }
 
+    body{
+        margin: 0;
+        padding: 0;
+    }
 
